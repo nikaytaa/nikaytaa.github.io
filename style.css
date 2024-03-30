@@ -1,0 +1,70 @@
+:root {
+    --font-size: 1.125rem;
+    --line-height: 1.5;
+    --color-background: #fff9ef;
+    --color-text: #331b2f;
+    --color-link: #2523ab;
+    --font-family: "Noto Serif", serif;
+    --padding: 1rem;
+    --container-max: 85ch;
+    --border-radius: 0.5rem;
+    --border-width: 0.125rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    background: var(--color-background);
+    color: var(--color-text);
+}
+
+a:link {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+a:visited,
+a:link:active,
+a:visited:active {
+    color: var(--color-link);
+    text-decoration: underline;
+}
+
+.wrapper {
+    width: min(100vw - 3rem, var(--container-max));
+    margin-inline: auto;
+}
+
+.ur {
+    font-family: "Noto Nastaliq Urdu", serif;
+    direction: rtl;
+    width: auto;
+}
+
+div.research-interests {
+    border: var(--border-width) dotted var(--color-text);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    width: fit-content;
+    margin-inline: auto;
+}
+
+div.research-interests h3 {
+    margin-top: 0px;
+}
+
+p {
+    line-height: 1.75;
+}
+
+h1 {
+    margin-top: 2rem;
+}
