@@ -5,6 +5,8 @@
     --color-text: #331b2f;
     --color-link: #2523ab;
     --font-family: "Noto Serif", serif;
+    --ff-ur: "Noto Nastaliq Urdu", serif;
+    --ff-hi: "Noto Serif Devanagari", serif;
     --padding: 1rem;
     --container-max: 85ch;
     --border-radius: 0.5rem;
@@ -46,13 +48,13 @@ a:visited:active {
     margin-inline: auto;
 }
 
-.ur {
-    font-family: "Noto Nastaliq Urdu", serif;
+*:lang(ur) {
+    font-family: var(--ff-ur);
     direction: rtl;
 }
 
-.hi {
-    font-family: "Noto Serif Devanagari", serif;
+*:lang(hi) {
+    font-family: var(--ff-hi);
     font-variation-settings: "wdth" 100;
 }
 
