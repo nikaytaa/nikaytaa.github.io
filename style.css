@@ -13,6 +13,14 @@
     --border-width: 0.125rem;
 }
 
+@media (prefers-color-scheme: dark) {
+:root {
+    --color-background: hsl(214 13.7% 10%);
+    --color-text: hsl(336 100% 97.1%);
+    --color-link: hsl(206 100% 82.4%); 
+    }
+}
+
 *,
 *::before,
 *::after {
