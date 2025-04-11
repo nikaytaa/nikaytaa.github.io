@@ -11,7 +11,7 @@
 
 <body class="bg-stone-50 text-stone-900 p-1">
     <div class="container mx-auto max-w-screen-xl">
-        <div class="bg-yellow-400 p-8 rounded-2xl shadow-md mb-2 ">
+        <div class="bg-yellow-400 p-8 rounded-2xl shadow-md mb-4">
             <h1 class="text-5xl font-bold mb-4 tracking-tight text-balance">
                 <%= heading %>
             </h1>
@@ -22,7 +22,7 @@
             <% }); %>
         </div>
         <% content.forEach((c, i) => { %>
-            <div class="bg-stone-100 overflow-hidden rounded-2xl shadow-md mb-2 border-2 border-stone-900">
+            <div class="bg-stone-100 overflow-hidden rounded-2xl shadow-md mb-4 border-2 border-stone-900">
                 <div class="bg-teal-400 p-4 text-4xl font-bold tracking-tight border-b-2 border-stone-900">#<%= i + 1 %></div>
                 <div class="flex flex-col md:flex-row">
                     <div class="md:w-1/2 p-4 flex items-center justify-center">
