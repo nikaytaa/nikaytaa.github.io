@@ -19,7 +19,7 @@ all: $(INDEX_HTML) $(CSS_OUTPUT)
  
 
 # Compile Tailwind CSS
-$(CSS_OUTPUT): $(CSS_INPUT)
+$(CSS_OUTPUT): $(CSS_INPUT) $(TEMPLATE)
 	@echo "Compiling Tailwind CSS..."
 	@$(BUN) x $(TAILWIND_CLI) -i $< -o $@ --minify 
 
