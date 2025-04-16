@@ -27,7 +27,8 @@
         {
             "reel": 4,
             "link": "https://www.instagram.com/reel/DDWi9bCyiwN/",
-            "commentary": "The pallu, the open end of the sari tucked into the waist, carries a cultural significance similar to a man rolling up his sleeves to get work done. In this scene, Swati is in the kitchen, and is shown cooking and simultaneously working to showcase the Sari to the audience."
+            "commentary": "The pallu, the open end of the sari tucked into the waist, carries a cultural significance similar to a man rolling up his sleeves to get work done. In this scene, Swati is in the kitchen, and is shown cooking and simultaneously working to showcase the Sari to the audience.",
+            "poster": true
         },
         {
             "reel": 5,
@@ -44,8 +45,7 @@
         {
             "reel": 7,
             "link": "https://www.instagram.com/reel/DDYgnBJzVAG/",
-            "commentary": "This video featuring Nisha has the same voiceover as Swati’s reel <a href=\"#3\">#3</a>. Both are engaging in some self-deprecating humour that shows them having to accept their place in the patriarchal system by this God-man guruji.",
-            "poster": true
+            "commentary": "This video featuring Nisha has the same voiceover as Swati’s reel <a href=\"#3\">#3</a>. Both are engaging in some self-deprecating humour that shows them having to accept their place in the patriarchal system by this God-man guruji."
         },
         {
             "reel": 8,
@@ -107,7 +107,8 @@
         {
             "reel": 19,
             "link": "https://www.instagram.com/reel/DBX9TEyyHIw/",
-            "commentary": "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus."
+            "commentary": "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus.",
+            "poster": true
         },
         {
             "reel": 20,
