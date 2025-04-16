@@ -5,6 +5,17 @@ body {
     font-family: 'Libre Caslon Text', serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Inter', sans-serif;
+}
+
+@layer base {
+    a {
+        @apply text-blue-500 hover:text-blue-800 hover:underline transition-colors duration-150 ease-in-out;
+    }
 }
